@@ -1,11 +1,40 @@
+main{
+    border:3px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+}
+
 div {
     border: 3px solid black;
 }
 
 nav{
     border:3px solid black;
+    flex-grow: 1;
 }
 
-main{
-    border:3px solid black;
+#divPartieGauche, #divPartieBasse, #divSeance, #divTheme,#divBureau, #divLocal, #divGauche{
+    flex-grow: 1;
+}
+
+#divBureau, #divLocal{
+    height: 50%;
+}
+
+#container{
+    display: flex;
+    min-height: 100vh;
+}
+
+#divPartieGauche{
+    display:flex;
+}
+
+#divPartieBasse{
+    display: flex;
+}
+
+#divAgenda{
+    flex-grow: 2;
 }
