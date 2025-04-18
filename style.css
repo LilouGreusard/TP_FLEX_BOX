@@ -72,6 +72,12 @@ nav{
     padding: 1%;
 }
 
+.pBlanc{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 1%;
+}
+
 .membreBureau{
     display: flex;
     flex-direction: column;
