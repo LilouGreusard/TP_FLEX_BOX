@@ -1,17 +1,22 @@
+body{
+    background-color: #001C2F;
+}
+
 main{
-    border:3px solid black;
     display: flex;
     flex-direction: column;
     flex-grow: 10;
 }
 
 div {
-    border: 3px solid black;
+
 }
 
 nav{
-    border:3px solid black;
     flex-grow: 1;
+    background-color: #2A4E62;
+    border-radius: 15px;
+    padding: 1%;
 }
 
 #divPartieGauche, #divPartieBasse, #divSeance, #divTheme,#divBureau, #divLocal, #divGauche{
@@ -25,6 +30,11 @@ nav{
 #container{
     display: flex;
     min-height: 100vh;
+    background-color: #FFF2DC;
+    border-radius: 15px;
+    padding: 1%;
+    margin: 1%;
+    min-height: 90vh;
 }
 
 #divPartieGauche{
