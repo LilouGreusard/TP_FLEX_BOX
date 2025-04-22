@@ -14,12 +14,17 @@ nav{
     padding: 1%;
 }
 
+h1{
+    font-weight: bold;
+}
+
 #divPartieGauche, #divPartieBasse, #divSeance, #divTheme,#divBureau, #divLocal, #divGauche{
     flex-grow: 1;
 }
 
 #divBureau, #divLocal{
     height: 50%;
+    margin: 2%;
 }
 
 #container{
@@ -60,6 +65,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2%;
 }
 
 #logoClub{
@@ -92,8 +98,8 @@ nav{
 .rond{
     border-radius: 100%;
     background-color: gray;
-    width: 50;
-    height: 50;
+    width: 50px;
+    height: 50px;
 }
 
 .nomBureau{
@@ -109,7 +115,7 @@ nav{
 }
 
 .boxMois{
-    border: radius 15px;
+    border-radius: 15px;
     margin-top: 5%;
     overflow: hidden;
 }
